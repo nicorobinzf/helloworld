@@ -1,0 +1,3 @@
+   1、upload file to static source,and name it as favicon
+   
+   ２、<link rel="icon" type="img/x-icon" href="{!URLFOR($Resource.favicon)}" />
