@@ -1,0 +1,14 @@
+    <script type = "text/javascript">
+        window.onload=function()
+        {
+            document.title="{!tit}";
+            if((typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1)){
+                var ua = navigator.userAgent;
+                if (ua.match(/iPhone|iPad/)) {
+                     document.getElementById("androidButton").className = "dishide";
+                }else{
+                    document.getElementById("iphoneButton").className = "dishide";
+                }
+            }
+        };
+	</script>
