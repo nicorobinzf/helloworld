@@ -1,0 +1,41 @@
+//List<AggregateResult> listObj =[SELECT SObjectType FROM ObjectPermissions GROUP BY SObjectType ORDER BY SObjectType ASC];
+
+List<String> listObj = new List<String> {
+	'DI_Project__c'
+	,'Task'
+	,'Recommendation'
+	,'Campaign'
+	,'CampaignInfluence'
+	,'CampaignMember'
+	,'QuickText'
+	,'Case'
+	,'AssociatedLocation'
+	,'BudgetExpectedResultsTotal__c'
+};
+
+for(String so: listObj){
+    //Schema.SObjectType convertType = Schema.getGlobalDescribe().get(so);
+    List<FieldDefinition> fieldso=[SELECT Label, QualifiedApiName, DataType FROM FieldDefinition WHERE datatype='‘I‘ðƒŠƒXƒg' and EntityDefinition.QualifiedApiName =:so ];
+    if (fieldso.size() >0 ){
+        System.debug('**************************************');
+    	System.debug(so);
+        for(FieldDefinition f: fieldso){
+            Schema.SObjectType obj_describe = Schema.getGlobalDescribe().get(so) ;
+            Schema.DescribeSObjectResult obj_describe_result = obj_describe.getDescribe() ;
+            Map<String,Schema.SObjectField> fields = obj_describe_result.fields.getMap() ;
+            Schema.DescribeFieldResult fieldResult = fields.get(f.QualifiedApiName).getDescribe();
+            //List<Schema.PicklistEntry> ple = fieldResult.getPicklistValues();
+            //Schema.DescribeFieldResult fieldResult = Opportunity.StageName.getDescribe();
+            List<Schema.PicklistEntry> values = fieldResult.getPicklistValues();        
+            String result='';
+            System.debug(f.QualifiedApiName);
+            for( Schema.PicklistEntry v : values) {
+                System.debug('    ' + v.getLabel() + ':' + v.getValue());
+            }
+        }
+    }
+}
+
+
+
+
