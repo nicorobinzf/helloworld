@@ -20,3 +20,28 @@
         }
         return fieldMapping;
     }
+
+
+    private static List<objectA__c> createReflectobjectA__cRecords(
+        List<objectB__c> listobjectB, 
+        Map<String, String> mapping
+    ) {
+        List<objectA__c> listobjectA = new List<objectA__c>();
+
+        for( objectB__c das : listobjectB ) {
+            PublicInfBtwnMedicalInstitutions__c pbm = new PublicInfBtwnMedicalInstitutions__c();
+
+            // 自動マッピング項目を設定
+            for( String pbmField : mapping.keySet() ) {
+                pbm.put( pbmField, das.get( mapping.get( pbmField ) ) );
+            }
+
+            // 設定値に指定のある項目を設定
+            pbm.OwnerId = das.OwnerId;
+
+            // リストに格納
+            listPBM.add( pbm );
+        }
+
+        return listPBM;
+    }
