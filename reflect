@@ -1,0 +1,22 @@
+    private static Map<String, String> getRefletMpping() {
+        Map<String, String> fieldMapping = new Map<String, String>();
+
+        // objectAの項目情報を取得
+        List<Schema.SObjectField> listobjectAFields = objectA__c.SObjectType.getDescribe().fields.getMap().values();
+        // objectBの項目情報を取得
+        Map<String, Schema.SObjectField> mapobjectBFields = objectB__c.SObjectType.getDescribe().fields.getMap();
+
+        for( Schema.SObjectField filed : listobjectAFields ) {
+            Schema.DescribeFieldResult dfr = filed.getDescribe();
+            if( dfr.isCustom() && !dfr.isCalculated() && !dfr.isAutoNumber() ) {
+                // オブジェクト接頭字を置換してマッピング先項目名を作成
+                String mappingobjectBFieldName = dfr.getName().replaceFirst( 'strA', 'strB' );
+
+                // objectBに存在する項目であればマッピングを保持
+                if( mapobjectBFields.containsKey( mappingobjectBFieldName ) ) {
+                    fieldMapping.put( dfr.getName(), mappingobjectBFieldName );
+                }
+            }
+        }
+        return fieldMapping;
+    }
