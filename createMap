@@ -1,0 +1,1 @@
+Map<Id, User> ownerMap = new Map<Id, User>([select id,name from user]);
