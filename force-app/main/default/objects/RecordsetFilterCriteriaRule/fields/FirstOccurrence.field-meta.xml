@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FirstOccurrence</fullName>
+    <inlineHelpText
+  >開始値を設定します。ルールが true かどうかを判別するには、この値を利用状況項目の値と比較します。</inlineHelpText>
+</CustomField>

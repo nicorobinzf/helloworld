@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UsageRateField</fullName>
+    <inlineHelpText
+  >この項目には、納入商品の 1 日の利用レートが保存されます。利用レートの単位は 1 日あたりである必要があります。</inlineHelpText>
+</CustomField>

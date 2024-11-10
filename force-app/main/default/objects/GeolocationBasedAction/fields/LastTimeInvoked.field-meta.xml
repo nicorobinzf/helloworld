@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastTimeInvoked</fullName>
+    <inlineHelpText
+  >派遣作業員が最後にアクションをトリガーした時間をキャプチャします。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

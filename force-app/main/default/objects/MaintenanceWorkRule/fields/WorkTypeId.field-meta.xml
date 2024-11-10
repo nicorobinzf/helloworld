@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WorkTypeId</fullName>
+    <inlineHelpText
+  >生成された作業指示で継承される期間、必要なスキルと商品、およびリンク済み記事を制御する作業種別別を設定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

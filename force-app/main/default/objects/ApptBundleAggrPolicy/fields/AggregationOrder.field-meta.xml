@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AggregationOrder</fullName>
+    <inlineHelpText
+  >集計をトリガーする順序を設定します。たとえば、このポリシーを最初にトリガーするには、1 と入力します。</inlineHelpText>
+</CustomField>

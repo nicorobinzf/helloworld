@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecordsetFilterCriteriaId</fullName>
+    <inlineHelpText
+  >レコードセット検索条件は、条件または使用量ベースの作業ルールを含む作業指示でのみ定義します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

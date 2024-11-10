@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortDirection</fullName>
+    <inlineHelpText
+  >バンドル内の予定の順序を昇順または降順に設定します。</inlineHelpText>
+</CustomField>

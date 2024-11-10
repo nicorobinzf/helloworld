@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TravelTimeBuffer</fullName>
+    <inlineHelpText
+  >運転時間には、駐車場を探す時間や現場に歩いて向かう時間など、さらに時間を追加します。この値は、[Field Service 設定] | [スケジュール] | [ルーティング] で定義された移動時間バッファよりも優先されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

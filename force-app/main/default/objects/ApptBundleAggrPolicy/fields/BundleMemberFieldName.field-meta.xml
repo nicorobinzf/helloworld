@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BundleMemberFieldName</fullName>
+    <inlineHelpText
+  >取得元項目はバンドルメンバーサービス予定の項目です。[バンドル項目に基づいて合計] または [バンドル項目に基づいて減算] 集計アクションを選択した場合、取得元項目はバンドルサービス予定の項目になります。</inlineHelpText>
+</CustomField>

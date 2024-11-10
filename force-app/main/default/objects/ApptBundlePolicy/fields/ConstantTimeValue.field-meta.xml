@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConstantTimeValue</fullName>
+    <inlineHelpText
+  >このオプションは、[バンドル期間項目による時間の計算] が有効になっている場合のみ使用します。バンドルの合計時間 (分) を定数値として入力します。</inlineHelpText>
+</CustomField>

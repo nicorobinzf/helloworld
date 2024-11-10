@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DateValue</fullName>
+    <inlineHelpText
+  >日付の集計で一定の日付値が必要な場合にのみ、適用します。</inlineHelpText>
+</CustomField>

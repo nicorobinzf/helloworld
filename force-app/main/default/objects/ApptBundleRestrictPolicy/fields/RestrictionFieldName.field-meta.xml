@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RestrictionFieldName</fullName>
+    <inlineHelpText
+  >制限を適用するために使用するバンドルメンバーサービス予定項目を選択します。同じ値を持つバンドルメンバーサービス予定のみをバンドルすることができます。</inlineHelpText>
+</CustomField>

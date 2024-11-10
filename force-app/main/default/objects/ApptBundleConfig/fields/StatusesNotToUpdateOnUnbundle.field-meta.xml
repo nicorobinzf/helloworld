@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StatusesNotToUpdateOnUnbundle</fullName>
+    <inlineHelpText
+  >バンドル解除時に更新されない状況を選択します。バンドル解除時にサービス予定を更新するには、空の値を使用します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description
+  >取引先責任者を Commerce 再注文ポータルに招待します。</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Commerce 再注文ポータル: 招待</name>
+    <style>none</style>
+    <subject>{!Community_Name}にようこそ</subject>
+    <textOnly>&lt;html&gt;
+            {!Receiving_User.FirstName} 様
+            &lt;p&gt;
+            この再注文ポータルで、{!Organization.Name} で繰り返し注文する簡単な方法を確認してください。過去の注文の表示、数量の変更、新しい注文の実行、注文状況の表示を行うことができます。
+            &lt;/p&gt;
+            &lt;p&gt;
+            次のリンクをクリックしてアクセス: &lt;a href={!Community_URL}&gt;{!Community_Name}&lt;/a&gt;
+            &lt;/p&gt;
+            Regards,&lt;br&gt;
+            {!Sending_User.Name}
+            &lt;/html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

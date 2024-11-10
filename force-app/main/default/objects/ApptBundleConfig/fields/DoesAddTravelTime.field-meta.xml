@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DoesAddTravelTime</fullName>
+    <inlineHelpText
+  >バンドルメンバーのサービス予定の場所が同じでない場合、場所間の移動時間を並び替え順に従ってバンドルの期間に追加します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

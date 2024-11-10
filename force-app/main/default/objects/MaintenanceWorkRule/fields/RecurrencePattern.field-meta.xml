@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecurrencePattern</fullName>
+    <inlineHelpText
+  >繰り返しパターンはカレンダーベースの作業ルールでのみ定義します。頻度は、選択した期間におけるイベントの発生頻度です。たとえば、毎週の繰り返し期間と 2 の頻度を選択した場合、イベントは 2 週間ごとに発生します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

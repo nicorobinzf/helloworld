@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsAutomaticBundling</fullName>
+    <inlineHelpText
+  >自動化プロセスによって自動バンドルがトリガーされたときにこのポリシーを使用できるようにします。手動バンドルと自動バンドルは同時に有効にできます。</inlineHelpText>
+</CustomField>

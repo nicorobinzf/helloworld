@@ -1,0 +1,8 @@
+<apex:page
+  standardController="Applicant__c"
+  showHeader="false"
+  applyHtmlTag="false"
+  applyBodyTag="false"
+>
+  <apex:outputText>try</apex:outputText>
+</apex:page>

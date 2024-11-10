@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsRestrictByDateOnly</fullName>
+    <inlineHelpText
+  >[制限項目名] の型は [日付/時間] である必要があります。バンドルをカレンダー日付のみに基づいて制限し、時刻は無視します。</inlineHelpText>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextOccurrenceField</fullName>
+    <inlineHelpText
+  >この項目の値を利用状況項目と比較して、ルールが true かどうかを判別します。</inlineHelpText>
+</CustomField>

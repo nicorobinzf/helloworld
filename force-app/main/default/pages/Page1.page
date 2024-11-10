@@ -1,0 +1,10 @@
+<apex:page StandardController="Account" extensions="Wizard">
+  <apex:form>
+    <apex:pageBlock>
+      <apex:pageBlockSection>
+        <apex:inputText label="Name" value="{!new1}" />
+        <apex:commandButton value="Next" action="{!nextPage}" />
+      </apex:pageBlockSection>
+    </apex:pageBlock>
+  </apex:form>
+</apex:page>

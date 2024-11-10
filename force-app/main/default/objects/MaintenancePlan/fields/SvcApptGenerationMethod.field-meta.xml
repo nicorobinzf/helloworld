@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SvcApptGenerationMethod</fullName>
+    <inlineHelpText
+  >複数の納入商品がメンテナンス計画に関連付けられていて、作業指示の生成方法が [納入商品あたり 1 つの作業指示品目] の場合にサービス予定を生成する方法を指定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

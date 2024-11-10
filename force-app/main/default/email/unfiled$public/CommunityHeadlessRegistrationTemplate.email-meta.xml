@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description
+  >ヘッドレス登録フロー中にワンタイムパスワードと共にユーザーが受信するメール。</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name
+  >Experience Cloud: ヘッドレス登録検証用のワンタイムパスワードメール</name>
+    <style>none</style>
+    <subject>{!Community.Name} で ID を確認してください</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

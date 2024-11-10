@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GenerationTimeframe</fullName>
+    <inlineHelpText
+  >各バッチで作業指示が生成される前の時間。この単位は [生成期間種別] で指定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

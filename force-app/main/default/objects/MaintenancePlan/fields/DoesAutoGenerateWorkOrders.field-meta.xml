@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DoesAutoGenerateWorkOrders</fullName>
+    <inlineHelpText
+  >作業指示が自動的に生成されるかどうかを定義します。このルールが適用されると、手動で作業指示を生成できなくなります。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

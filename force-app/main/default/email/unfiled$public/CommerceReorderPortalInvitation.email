@@ -1,0 +1,11 @@
+<html>
+            {!Receiving_User.FirstName} 様
+            <p>
+            この再注文ポータルで、{!Organization.Name} で繰り返し注文する簡単な方法を確認してください。過去の注文の表示、数量の変更、新しい注文の実行、注文状況の表示を行うことができます。
+            </p>
+            <p>
+            次のリンクをクリックしてアクセス: <a href={!Community_URL}>{!Community_Name}</a>
+            </p>
+            Regards,<br>
+            {!Sending_User.Name}
+            </html>

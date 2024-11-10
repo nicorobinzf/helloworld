@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortType</fullName>
+    <inlineHelpText
+  >[バンドル内で並び替え] では、バンドルメンバーの順序を定義します。またこれは、バンドルを解除し、ガントチャートでのサービス予定のスケジュール順序を定義する場合にも使用されます。
+            [自動バンドルの並び替え] では、バンドルするサービス予定の候補を調べるために自動バンドルで使用する順序を定義します。</inlineHelpText>
+</CustomField>

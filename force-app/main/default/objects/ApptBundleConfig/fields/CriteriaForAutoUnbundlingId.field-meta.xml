@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CriteriaForAutoUnbundlingId</fullName>
+    <inlineHelpText
+  >バンドルを自動的に解除する条件を入力します。自動バンドル解除を行わないようにするには、空の値を使用します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

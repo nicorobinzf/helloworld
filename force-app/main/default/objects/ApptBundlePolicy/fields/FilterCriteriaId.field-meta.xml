@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FilterCriteriaId</fullName>
+    <inlineHelpText
+  >バンドルメンバーで使用する検索条件を選択します。条件を満たすサービス予定のみをバンドルできます。</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

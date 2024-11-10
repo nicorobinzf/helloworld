@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTimeCalcByBundleDurationFld</fullName>
+    <inlineHelpText
+  >バンドルの終了時刻からバンドルの開始時刻を減算し、バンドルの期間と比較します。</inlineHelpText>
+</CustomField>

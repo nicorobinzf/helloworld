@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AggregationAction</fullName>
+    <inlineHelpText
+  >[バンドル項目名] で使用できるアクションを選択します。詳細は、ドキュメントを参照してください。</inlineHelpText>
+</CustomField>

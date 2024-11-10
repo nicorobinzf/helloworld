@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AvgTravelTime</fullName>
+    <inlineHelpText
+  >このサービステリトリーの平均移動時間を入力します。この値は、サービステリトリーの各スケジュール済みサービス予定の作業業務量使用状況に追加されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

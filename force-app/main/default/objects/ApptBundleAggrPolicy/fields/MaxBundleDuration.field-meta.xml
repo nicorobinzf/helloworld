@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxBundleDuration</fullName>
+    <inlineHelpText
+  >ダウンスケール集計にのみ適用します。ダウンスケール後のバンドルメンバーの合計から計算される最大バンドル期間 (分) を入力します。</inlineHelpText>
+</CustomField>

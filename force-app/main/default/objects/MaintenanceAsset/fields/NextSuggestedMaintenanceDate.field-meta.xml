@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NextSuggestedMaintenanceDate</fullName>
+    <inlineHelpText
+  >このメンテナンス納入商品で生成される次のバッチの作業指示の推奨サービス日。この値は、各バッチの生成後に更新されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

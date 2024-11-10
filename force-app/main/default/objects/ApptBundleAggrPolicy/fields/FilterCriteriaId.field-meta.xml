@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FilterCriteriaId</fullName>
+    <inlineHelpText
+  >バンドルメンバーの集計に使用するレコードセット検索条件を入力します。この条件を満たすサービス予定のみを集計できます。</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

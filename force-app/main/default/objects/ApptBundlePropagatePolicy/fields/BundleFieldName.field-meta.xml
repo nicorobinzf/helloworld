@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BundleFieldName</fullName>
+    <inlineHelpText
+  >バンドルサービス予定項目を選択します。値はバンドルメンバーサービス予定に追加されます。</inlineHelpText>
+</CustomField>

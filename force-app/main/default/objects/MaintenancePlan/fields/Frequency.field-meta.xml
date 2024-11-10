@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frequency</fullName>
+    <inlineHelpText
+  >計画の作業指示間の時間。この単位は [頻度種別] で指定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

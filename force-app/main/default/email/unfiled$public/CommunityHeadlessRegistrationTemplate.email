@@ -1,0 +1,7 @@
+{!HeadlessAuth.LastName} {!HeadlessAuth.FirstName} 様
+            
+            {!Community.Name} での {!HeadlessAuth.Username} の登録を確認するため、
+            
+            本人確認を行います。プロンプトが表示されたら、次のワンタイムパスワードを入力してください。
+            
+            パスワード: {!Verification.Code}

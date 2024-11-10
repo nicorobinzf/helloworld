@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LimitAmountOfBundleMembers</fullName>
+    <inlineHelpText
+  >バンドルに含めることができるバンドルメンバーの最大数 (最大 200) を入力します。</inlineHelpText>
+</CustomField>

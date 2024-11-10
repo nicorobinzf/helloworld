@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FilteredObject</fullName>
+    <inlineHelpText
+  >検索条件で使用する属性を保存するオブジェクトを選択します。</inlineHelpText>
+</CustomField>

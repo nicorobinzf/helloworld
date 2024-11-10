@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortOrder</fullName>
+    <inlineHelpText
+  >メンテナンス計画またはメンテナンス納入商品に同じ日付の作業指示を生成するメンテナンス作業ルールが 2 つ以上ある場合の作業指示の生成方法を決定する手順を設定します。最も低い並び替え順の値が優先されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

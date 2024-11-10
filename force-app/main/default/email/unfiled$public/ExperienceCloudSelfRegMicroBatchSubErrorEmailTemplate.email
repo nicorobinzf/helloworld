@@ -1,0 +1,14 @@
+{!Community_Name} への登録で問題が発生しました。
+
+
+              次のエラーを解決してください: 
+
+{!SelfReg_MicroBatch_Error}
+
+
+              {!Community_Url} に移動してもう一度試すか、システム管理者にお問い合わせください。
+
+
+              よろしくお願い申し上げます。
+
+              {!Organization.Name}

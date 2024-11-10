@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsExcluded</fullName>
+    <inlineHelpText
+  >チェックボックスがオンになっている場合、このレコードはアセットのアップタイムレコード開始日とアップタイムレコード終了日の範囲外になるため、可用性と信頼性の計算から除外されます。</inlineHelpText>
+</CustomField>

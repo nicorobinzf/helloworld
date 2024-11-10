@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostWorkSummary</fullName>
+    <inlineHelpText
+  >サマリーを手動で入力します。または、Einstein Copilot を使用している場合は、Copilot にサマリーを自動的に記入させることができます。</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SvcApptField</fullName>
+    <inlineHelpText
+  >選択できるのは最初の作業業務量制限インスタンスのサービス予定項目のみです。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>test1</value>
+    </caseValues>
+    <layouts>
+        <layout>test1 Layout</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- alltest --></label>
+        <name>alltest</name>
+    </webLinks>
+</CustomObjectTranslation>

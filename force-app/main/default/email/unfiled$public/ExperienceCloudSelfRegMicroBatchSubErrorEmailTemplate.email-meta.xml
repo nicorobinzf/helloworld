@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description
+  >このメールテンプレートは、要求の送信後に一括処理されるセルフ登録要求に適用されます。セルフ登録要求の処理中にエラーが発生すると、次のメールがユーザに送信されます。</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name
+  >Experience Cloud: セルフ登録マイクロバッチ登録エラーユーザメール</name>
+    <style>none</style>
+    <subject>{!Community_Name} への登録に失敗しました</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

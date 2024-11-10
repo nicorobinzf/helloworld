@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GenerationHorizon</fullName>
+    <inlineHelpText
+  >次のバッチの最初の作業指示の日付 (作業指示のバッチが生成される日付) までの日数を設定します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

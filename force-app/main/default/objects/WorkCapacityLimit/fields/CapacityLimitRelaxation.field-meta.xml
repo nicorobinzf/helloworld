@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CapacityLimitRelaxation</fullName>
+    <inlineHelpText>この制限を上書きするタイミングを定義します。
+            制限の上書きポリシーが [Field Service 設定] の制限に従って設定されている場合は次のようになります:
+            空の値 - 上書きなし。
+            0 - サービス日の午前 0 時に上書きが開始されます。
+            正の整数 - 午前 0 時のこの時間後に上書きが開始されます。
+            負の整数 - 午前 0 時のこの時間前に上書きが開始されます。
+            制限の上書きポリシーが制限に従って設定されていない場合、この値は無視されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

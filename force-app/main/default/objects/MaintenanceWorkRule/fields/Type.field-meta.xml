@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText
+  >カレンダーベースでは、繰り返しパターン (例: 毎月第 1 月曜日にスケジュール) を定義します。条件ベースでは、条件 (例: エンジン温度が 200 °F を超えた場合やマイル数が 10K を超えた場合) を定義するレコードセット検索条件を選択します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

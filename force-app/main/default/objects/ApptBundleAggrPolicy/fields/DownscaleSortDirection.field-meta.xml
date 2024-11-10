@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DownscaleSortDirection</fullName>
+    <inlineHelpText
+  >[縮小期間を設定] アクションが設定されている場合のみ、適用します。バンドルメンバーサービス予定のダウンスケール並び替えの方向をその期間に従って選択します。</inlineHelpText>
+</CustomField>

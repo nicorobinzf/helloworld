@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frequency</fullName>
+    <inlineHelpText
+  >メンテナンスの頻度を設定します。たとえば、この項目が「1000」の場合、メンテナンスは 1000 単位の増分ごとにスケジュールされます。増加する利用状況項目の場合は正の値、減少する利用状況項目の場合は負の値を指定できます。</inlineHelpText>
+</CustomField>

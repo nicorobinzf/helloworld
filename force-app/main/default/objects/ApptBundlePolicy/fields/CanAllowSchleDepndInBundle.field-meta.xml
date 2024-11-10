@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CanAllowSchleDepndInBundle</fullName>
+    <inlineHelpText
+  >スケジュール連動関係を持つサービス予定をバンドルすることを許可します。</inlineHelpText>
+</CustomField>
