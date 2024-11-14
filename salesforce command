@@ -1,0 +1,17 @@
+①プロジェクトを作成する。
+sf project generate -n projectName -x
+
+②salesforce環境の全資源を含めるpackage_all.xml を作成する
+sf project generate manifest -d manifest -n package_all --api-version 61.0 --from-org orgAlias
+
+③特定のpackage.xmlから資源取得
+sf project retrieve start -a 61.0 -x manifest/package_others.xml -o orgAlias
+
+④vscodeで認証したsalesforce　org　alias一覧を表示
+sfdx force:org:list
+
+⑤salesforce　org　alias変更
+sfdx force:alias:set newAlias=userName
+
+⑥古いalias名を削除
+sf force alias unset oldAlias
