@@ -15,3 +15,6 @@ sfdx force:alias:set newAlias=userName
 
 ⑥古いalias名を削除
 sf force alias unset oldAlias
+
+⑦組織からlogout
+sf org logout -o [対象組織]
