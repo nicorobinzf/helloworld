@@ -18,3 +18,6 @@ sf force alias unset oldAlias
 
 ⑦組織からlogout
 sf org logout -o [対象組織]
+
+メタデータからpackage.xmlを生成
+sf project generate manifest -d manifest -p force-app --api-version 61.0
