@@ -1,0 +1,42 @@
+{
+    "dev": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--dummy.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gdevdev01": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--dummy.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gdevdev05": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--mdevdev04.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gdevmig01": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--mdevmig01.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gdevmig02": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--mdevmig02.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gfulluat01": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--mdevuat01.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-gproit03": {
+        "AUTOBAHN_AUTH_URL": "https://api-demo.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login--mproit01.sandbox.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    },
+    "g-mis-prod": {
+        "AUTOBAHN_AUTH_URL": "https://api.autobahn.email",
+        "MED_LOGIN_REST_URL": "https://med-login.my.salesforce.com",
+        "DASHBOARD_RUNNING_USER": "keisuke.ohmoto@accenture.com.arch.g-mis"
+    }
+}
